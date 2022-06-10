@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(140, 204, 166);
+    
+}
+
+.desktop, .mobile {
+    display:none;
+}
+
+.title{}
+
+
+.subtitle{}
+
+
+/*     THIS IS THE RULE            THIS IS EFFECT  */
+/*  @media (max-width:500px)    {body {color:rgb(3, 56, 13)}} */
+/* CODE ABOVE MAKE TXT GO BLUE WHEN THIS STATMENT ITS TRUE - SCREN SIZE BELOW 500PX.*/
+/* THIS BY SETTING RULES IN SECTION I DESRIBE ABOVE AS "EFFECT" YOU ARRANGE WEBSITE 
+TO LOOK DIFFERENT ON  MOBILE DEBICES */
+
+
+
+/* WE ARE DESINGING FOR A VIEWPORT   */
+/* PORTRAIT AND LANDSCAPE */
+/* BY SETING PORTRAIT IT TRIGGER IN LANDSCAPE */
+@media (orientation: portrait) {
+    .title {
+        color: yellow;
+        background-color:black;
+        text-align:center;
+        padding: 5%;
+    }
+    .mobile{ display:inline-block;}
+}
+
+@media (orientation: landscape) {
+    .title {
+        color: rgb(106, 81, 220);
+        background-color:rgb(19, 3, 67);
+        text-align:center;
+        padding: 5%;
+    }
+}
+
+@media (orientation: portrait) {
+    .subtitle {
+        color: yellow;
+        background-color:black;
+        text-align:center;
+        padding: 5%;
+    }
+}
+
+
+/*    W E     P R E F E R      T I     U S E    R E L E V E N T     M E S U R E S  */
+
+
+.desktop, .mobile {
+    display:none;
+}
+
+@media (orientation: landscape) { 
+    .desktop { 
+        display: inline-block; 
+    } 
+} 
+@media (orientation: portrait) { 
+    .mobile { 
+        display: inline-block; 
+    } 
+
+}

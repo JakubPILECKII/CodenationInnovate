@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+    text-align: center;
+    align-items:center;
+    size-adjust:inherit;
+}
+
+
+
+/* BUILD DIFFERENT SIZES FOR DIFFERENT DEVICES - MOBILE, TABLET, COMPUTER */
+/* WE USE BREAKPOINTS TO DO IT  */
+
+
+
+/* BREAKPOINT 1 */
+/* RULES FOR IF SCREEN IS 600 PIXELS */
+/* WHEN IT GEETS TO 6 0 0PX WILL EXECTE CODE */
+@media(min-width:1px) {
+    body{
+        background-color: blue;
+        color: darkseagreen;
+        
+    }
+    .desktop{
+        visibility:hidden;
+    }
+    .mobike{
+        visibility:visible;
+    }
+}
+
+/* BREAKPOINT 2 */
+/* RULES FOR IF SCREEN IS 600 PIXELS */
+/* WHEN IT GEETS TO 9 0 0 PX  WILL EXECTE CODE */
+@media(min-width:600px) {
+    body{
+        background-color: rgb(0, 255, 21);
+        color:blue;
+    }
+    .desktop{
+        visibility:visible;
+    }
+    .mobile{
+        visibility:hidden;
+    }
+}
+
+

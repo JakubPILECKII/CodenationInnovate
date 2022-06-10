@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:900');
+
+* {
+    box-sizing: border-box;
+    padding: 5%;
+}
+@media(min-width:1px) {
+    .container {
+        display: flex;
+        min-height: 70vh;
+        
+        flex-direction:column;
+        /*flex-wrap:wrap; */ 
+    
+        /* CODE BELOW COMBINE 2 lines of CODE IN CODE
+        flex-flow: row wrap; 
+        */
+    
+        justify-content: center; /* JUSTIFY-CONTENT POSITION CONTENT */
+    
+        align-items:center; /* THIS COMMAND ALLING ITEMS IN TO CENTER BY DEFAULT ITS SET FOR stretch */
+        
+        flex-grow:1; /*THIS COMMAND WILL TAKE 100% OF EMPTY SPACE */
+    
+        justify-content: space-evenly; /*THIS CODE WILL SPACE CONTENT EVENLY*/
+
+    }
+    .picture {
+        display: none;
+    }
+    .box{
+        width: 10%;
+}
+
+
+@media(min-width:860px) {
+    .container {
+        display: flex;
+        min-height: 20vh;
+        flex-direction:row;
+        /*flex-wrap:wrap; */ 
+    
+        /* CODE BELOW COMBINE 2 lines of CODE IN CODE
+        flex-flow: row wrap; 
+        */
+    
+
+    
+        align-items:center; /* THIS COMMAND ALLING ITEMS IN TO CENTER BY DEFAULT ITS SET FOR stretch */
+        
+        flex-grow:1; /*THIS COMMAND WILL TAKE 100% OF EMPTY SPACE */
+    
+        justify-content: space-evenly; /*THIS CODE WILL SPACE CONTENT EVENLY*/
+    }
+    .picture {
+        display:block;
+        float:right;
+        
+    }
+    img{
+        width: 100%;
+        
+    }
+    .person1, .person2, .person3, .person4  {
+        margin-right: 2%;
+    }
+}
+
+
+
+/* Colours for each box */
+
+.person1 { background: #eccc68; /*this will move it in order*/ }
+.person3 { background: #ff6348; }
+.person2 { background: #ff7f50; }
+.person4 { background: #ff4757;} 
+.person5 { background: #f1c40f; /*order will move it in order*/}
+
