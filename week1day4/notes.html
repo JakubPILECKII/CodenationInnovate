@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+
+
+<body>
+
+    <h1 id="mainheader"> Main Heading, there should be one of H1 on website.(Most important header)</h1><h2>Second heador when it comes to importance.</h2>
+    Hello  Everyone
+
+    <img src="images/image.png" alt="Image of LAMP stack">  <<==== PUT IMAGE INSIDE THE WEBSITE.
+#####    ALT - its ALTERNATIVE - ITS TXT THAT APEARS IN CASE IF PICTURE NOT APEAR, WEBSITE ALTERNATIVLY DISPLAY TXT IN STED OF PICTURE.
+
+    <p id="randomtxt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam soluta quam neque consequatur similique accusantium modi maxime aliquid quia reiciendis quidem, architecto commodi error, eaque provident ducimus amet repellendus voluptatibus vero quisquam? Alias eaque tenetur, perspiciatis enim corrupti nisi ad amet assumenda adipisci, quae minima, necessitatibus numquam doloremque aliquam quibusdam sequi. Unde excepturi nulla porro iste totam! Eligendi consequatur magni quibusdam quos tempora aut neque consectetur porro sed fugit sunt voluptas, ratione cupiditate expedita ullam commodi omnis odit, vitae laborum, asperiores et exercitationem voluptatum optio? Quod sunt adipisci voluptatum voluptate dicta quam, tempore error aspernatur temporibus id minus quo.</p>
+    
+    BROWSER NEED TO BE TOLD WHERE ARE THE SPACS AND HOW BIG THEY ARE. 
+    
+    
+    
+    <p class="heading">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia debitis ratione saepe placeat repudiandae cupiditate magni rerum, autem exercitationem in!</p>
+
+    LINKS :: 
+    the <a> tag represent LINKS
+
+        to add a link 
+
+        <a  href="ADD THE LINK HERE">TXT FOR THE LINK IN HERE</a>
+        <pre> 
+            "< PRE >    < / P R E >" WITH OUT SPACES.
+            IT PRESERVSE FORMATING
+            IT PREVERS SPACES AND FORMATING OF CODE 
+            PRESERVES TEXT SPACES AND LINE BREAKS AND TABS
+            DISPLAYS IN A FIXED-WIDTH FONT BUT CAN BE CHANGED IN CSS
+            YOU CAN ACCESS IT IN CSS USING PRE{
+        </pre>
+
+
+
+        <p>EXAMPLE</p>
+    <links>
+    <a href="https://www.google.com">Click here to visit Google</a>]
+    <p>EXAMPLE OF OPIENING SOMETHING IN NEW TAB</p>
+        <sublinks> <a href="https://www.google.com" target="_blank">CLICK HERE TO OPEN GOOGLE IN NEW TAB</a>
+        <p> EXAMPLE OF LINK INSIDE PAGE</p>
+        </sublinks>   
+    </links> 
+    <a class="heading" href="subpage1.html"> CLICK HERE TO OPEN SUB PAGE</a>
+        <p></p>
+    <a href="#mainheader"> BACK TO THE TOP</a>
+
+</body>
+</html>
+
+
+##### <===! <footer> element (USSUALY A BOTTOM OF THE PAGE) ITS STILL INSIDE BODY.  FOOTER ELEMENT TYPICALLY CONTAINS :
+    1.BACK TO TOP LINKS
+    2.CONTACT INFO
+    3.COPYWRITE INFORMATION
+    
+    YOU ACCESS IT IN YOUR CSS USING FOOTER{} - IT HAS TO EXIST IN HTML FIRST TO ACCES IT IN CSS
+
+#########################################################
+
+##### <====  <pre>  THE PRE TAG ELEMENT REPRESENT PREFORMATTED TEXT WHICH IS TO BE PRESENTED EXACTLY AS WRITTEN IN THE HTML FILE.
+            A  < P R E > TAG - 
+
+##########################################################
+
+            "< D I V >   < / D I V >" - ITS A BOX TO PUT CONTENT IN AND THEN FORMAT IT ALL TOGETHER IN CSS. 
+            THE DIV TAG IS AN HTML ELEMENT THAT CONTAINS SEGMENTS OF CODE BUT DOES NOTHING UNTIL STYLED WITH CSS.
+            A DIV TAG 
+            1. GROUP CONTENT SO IT CAN BE EASILY STYLED
+            2.SHOULD ONLY BE USED WHEN NO OTHER ELEMENT (SUCH AS NAV OR ARTICLE) IS APPROPRIATE
+            3. WORKS WITHG PARENT AND CHILD REALATIONSHIP- (GETTING NESTED), MORE SO WHEN WORKING WITH FLEBOX  
+
+##########################################################
+
+            "< S P A N > THE SPAN TAG IS AN INLINE CONTAINER THAT ALLOWS YOU TO GROUP ELEMENTS FOR STYLING. IT DOES NOTHING UNTIL STYLED WITH CSS." ALMOST SAME AS DIV THE DIFFRENCE IS THAT DIV CREATING "SPACES" SPAN DOESNT MOVE CODE OUT OF LINE IT KEEP IT WHERE IT WAS BELONG ORIGINALY. 
+            
+#######################################################
+
+            LIST OF HTML ENTITIES : 
+            non-breaking space - &nbsp; or &#160;
+            less then
+
+#######################################################
+
+            CSS SYNTAX : 
+            WE CAN APLLY CSS TO OUR HTML BY USING SELECTORS TO ASSIGN VALUES TO PROPERTIES.
+
+            EXAMPLE : 
+            SELECTOR {
+                property: value;
+                property: value;
+            }
+
+
+            CHANGE THE PARAGRAPH  - < p > : 
+            p {
+                color: purple;
+                front-size: 32px;
+            }
+
+            EXAMPLE 2 :
+            selector, selector {}
+
+
+
+##########################################################
+            "*" IN CSS ITS WILDCARD (IN MOST LANGUAGES IT MEAN EVERYTHING) - IT WILL SELECT EVERYTHING.
+            TYPICALLY WILD CARD WOULD GO ON TOP AND THEN YOU WOULD OVERWRITE IT LATER ON IN CODE.
+
+
+
+##########################################################
+
+CLASS SELECTORS
+
+IF WE WANT TO 
+CLASS RULES ARE MORE IMPORATANT THEN ELEMENTS. 
+CLASS ARE PACK OF RULES THAT YOU CREATE AND APPLY TO YOUR CODE.
+" put dont in front of class in CSS and that will read it as class"
+
+#######################################
+
+ID's  SELECTOR - IT HAS THE HIGHEST PRIORITY, IT WILL OVERWRITE THE REST.  
+
+TO DEFINE ID WE USE "#" HASHTAG RATHER THEN DOT "."
+
+YOU CAN USE ID ONLY ONCE PER PAGE. 
+YOU USE IT ONLY ON ELEMENTS THAT ARE STRUCTUALY ONLY ONECE THEN PAGE. 
+YOU CAN HAVE AS MANY ID'S AS YOU WANT ITS JUST SHOULD BE USE ONLY ONCE PER PAGE. 
+
+#######################################################
+
+DOUBLE SELECTORS 
+
+EXAMPLE I TARGERING LINKS IN "LINK" AND MAKE THEM COLOR CORAL
+
+
+
+#######################################
+
+
+
+#######################################################
+
+PSEUDO ELEMENTS - INTERACT WITH PAGE FOR EXAMPLE HOVER - 
+change something when you put cursor over it
+we typicly see it on link 
+
+a - normal link
+a:visited - a link that user has visited 
+a:hover - a link that user has a cursor over it
+a:active - a link the user is clocking on 
+
+
+#######################################
+            R E S I Z I N G - HEIGHT AND WIDTH
+
+
+height:value: auto; - the browser calculates the necessary size
+height:value px; - this is se to a specific pixel
+height:value %- element set to a percentage of its parent(nest) conteiner 
+height:value vh; the height is determined relative to the size of the viewport
+
+width:value vw: the weight is determined relative to the sieze of elements. - MAKE IT RESPONSIVE ON ALL DEVICES
+
+
+MOST OF WEBSITE THIS DAYS ARE VIEW ON MOBILE PHONES.
+PROCENTAGE ARE USEFULL TO USE WHEN YOU SET WEBSITE FOR MOBILE 
+
+
+
+you can also define max-height, which stops the content from gworing any larger then what you defined
+and min-height, which sets the smallest size the element can be. 
+
+
+#######################################
+O V E R    F L O W    
+
+The overflow property determines what willl happen if the contents overflow their specified container size
+
+overflow:visible; - the default value the content renders outside
+overflow:hidden; - the overflowing content is clipped and hidden 
+overflow:scrol: - the overflowing content is clipped and a scroll bar is used on both axis
+
+#######################################
+
+TEXT-align value - sets text in chosen possition foe example in centre of screen
+
+
+
+#######################################################
+F O N T    F A M I L Y
+
+
+
+
+
