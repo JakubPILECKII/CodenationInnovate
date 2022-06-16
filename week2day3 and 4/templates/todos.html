@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="headers"> To do's Manager</h1>
+<br>
+<div>
+    <div id="task-box">        
+        <h2>New Tasks:</h2>
+        <ul>
+            {% for task in task_list %}
+            
+            <li>{{task}}</li>
+            {% endfor %}
+        </ul>
+        <form action="/todos" method="POST">
+            <input type="text" name="task-input" id="task-input">
+            <input type="submit" value="Add Task">
+        </form>
+    </div>
+    <button onclick="hider()"> Show Hide task</button>    
+</div>
+{% endblock %}

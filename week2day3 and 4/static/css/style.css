@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Permanent+Marker&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&family=Parisienne&family=Permanent+Marker&family=Satisfy&display=swap');
+
+/*  FONT COMMANDS FOR PROJRCT 
+
+    font-family: 'Courgette', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+*/
+
+body {
+    background-color: #cbcbcbe7;
+    text-align: center;
+    align-items:center;
+    size-adjust:inherit;
+    justify-content: space-evenly;
+    margin: 0.5%;    
+    padding: 0.2% 0.5%;
+}
+
+.headers{
+    font-family: 'Satisfy', cursive;
+    font-size: 6vw;
+    size-adjust:inherit;
+    
+
+}
+
+
+.highlight:hover{
+    color:rgb(11, 135, 224);
+    font-weight:bolder;
+    font-size:3vw;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.highlight{
+    color:rgb(3, 5, 1);
+    font-family: 'Satisfy', cursive;
+    font-size: 2vw;
+    size-adjust:inherit;
+
+}
+
+.highligh .dark-mode{
+    color:rgb(255, 255, 255);
+    font-family: 'Satisfy', cursive;
+    font-size: 2vw;
+    size-adjust:inherit;}
+
+.nav{
+    color:rgb(3, 5, 1);
+    font-family: 'Satisfy', cursive;
+    size-adjust:inherit;
+    font-size: 4vw;
+}
+
+.nav .dark-mode{
+    color:rgb(254, 255, 254);
+    font-family: 'Satisfy', cursive;
+    size-adjust:inherit;
+    font-size: 4vw;
+    position;
+}
+
+.hidden {
+        display:none;
+    }
+
+
+.dark-mode{
+    background-color: rgba(5, 5, 19, 0.964);
+    color:antiquewhite;
+    
+}
+
+
+.dmb{
+    color:rgb(3, 5, 1);
+    font-family: 'Lobster', cursive;
+    font-size: 1vw;
+    size-adjust:inherit;
+    align-items:right;}
+
+.dmb:hover{
+    background-color: black;
+    color:rgb(254, 254, 254);
+    font-weight:normal;
+    font-size:1vw;
+    font-family:'Lobster', cursive;}
